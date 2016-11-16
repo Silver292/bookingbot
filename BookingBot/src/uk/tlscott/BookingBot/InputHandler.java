@@ -45,7 +45,7 @@ public class InputHandler {
 				if (parts[1].equals("move")) {
 					//Don't move if paralysed
 					if (player.isParalyzed()) {
-						System.out.println("no_moves"); 
+						System.out.println("paralysed"); 
 						break;
 					}
 					
@@ -109,7 +109,7 @@ public class InputHandler {
 		if (updateString[1].equals(player.getName())) {
 			// Don't send move if paralysed
 			if (updateString[2].equals("is_paralyzed")) {
-				boolean isParalyzed = updateString[3] == "true" ? true : false;
+				boolean isParalyzed = updateString[3].equals("true") ? true : false;
 				player.setParalyzed(isParalyzed);
 			}
 		}
