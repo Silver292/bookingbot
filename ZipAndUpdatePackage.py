@@ -1,6 +1,6 @@
 import os, zipfile, shutil
 
-SOURCE_DIR = "G:/Scott/Documents/Projects/Java/workspace/BookingBot/src/uk/tlscott/BookingBot/"
+SOURCE_DIR = "W:/BookingBot/BookingBot/src/uk/tlscott/BookingBot/"
 TEMP_DIR = "G:/Scott/Documents/Projects/BookingBot/updatesFiles/"
 ZIP_DIR = "G:/Scott/Documents/Projects/BookingBot/"
 
